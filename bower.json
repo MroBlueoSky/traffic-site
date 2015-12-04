@@ -1,0 +1,12 @@
+{
+  "name": "site-traffic",
+  "version": "1.0.0",
+  "description": "site-traffic",
+  "main": "site-traffic.html",
+  "keywords": [
+    "polymer","web-components"
+  ],
+  "dependencies": {
+    "polymer": "*"
+  }
+}
