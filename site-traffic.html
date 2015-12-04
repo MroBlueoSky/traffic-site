@@ -1,0 +1,24 @@
+<link rel="import" href="../polymer/polymer.html">
+<!--
+`<site-traffic>` Observation of site traffic
+@demo demo.html
+-->
+
+<dom-module id="site-traffic">
+  <template>
+    <style>:host {display:inline-block;}</style>
+
+            <div class="siteTraffic">
+                <h2>Site Traffic</h2>
+                <div class="siteTrafficNum">
+                    {{num}}
+                </div>
+            </div>
+
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: "site-traffic"
+  });
+</script>
